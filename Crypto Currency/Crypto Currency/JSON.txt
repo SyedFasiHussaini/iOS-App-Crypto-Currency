@@ -1,0 +1,175 @@
+This is only to have a backup for the JSON object from the API https://run.mocky.io/v3/ac7d7699-a7f7-488b-9386-90d1a60c4a4b
+
+
+{
+  "cryptocurrencies": [
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "is_new": false,
+      "is_active": true,
+      "type": "token"
+    },
+    {
+      "name": "Ripple",
+      "symbol": "XRP",
+      "is_new": false,
+      "is_active": false,
+      "type": "coin"
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "is_new": true,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "is_new": true,
+      "is_active": true,
+      "type": "token"
+    },
+    {
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "is_new": true,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Bitcoin Cash",
+      "symbol": "BCH",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Stellar",
+      "symbol": "XLM",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "is_new": true,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "is_new": true,
+      "is_active": true,
+      "type": "token"
+    },
+    {
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Ripple",
+      "symbol": "XRP",
+      "is_new": false,
+      "is_active": false,
+      "type": "coin"
+    },
+    {
+      "name": "Monero",
+      "symbol": "XMR",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Tezos",
+      "symbol": "XTZ",
+      "is_new": true,
+      "is_active": true,
+      "type": "token"
+    },
+    {
+      "name": "EOS",
+      "symbol": "EOS",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "VeChain",
+      "symbol": "VET",
+      "is_new": true,
+      "is_active": true,
+      "type": "token"
+    },
+    {
+      "name": "Tron",
+      "symbol": "TRX",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Dash",
+      "symbol": "DASH",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "NEO",
+      "symbol": "NEO",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "is_new": true,
+      "is_active": true,
+      "type": "token"
+    },
+    {
+      "name": "IOTA",
+      "symbol": "IOTA",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    },
+    {
+      "name": "Ontology",
+      "symbol": "ONT",
+      "is_new": true,
+      "is_active": true,
+      "type": "token"
+    },
+    {
+      "name": "Zcash",
+      "symbol": "ZEC",
+      "is_new": false,
+      "is_active": true,
+      "type": "coin"
+    }
+  ]
+}
