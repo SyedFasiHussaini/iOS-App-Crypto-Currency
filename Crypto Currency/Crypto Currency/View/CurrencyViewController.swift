@@ -20,7 +20,7 @@ class CurrencyViewController: UIViewController {
     
     let headerLabel = UILabel()
     let searchBar = UISearchBar()
-        
+    
     var cryptocurrencies: [Currency] = []
     var cryptocurrenciesTemp: [Currency] = []
     var cryptocurrenciesFiltered: [Currency] = []
@@ -30,8 +30,8 @@ class CurrencyViewController: UIViewController {
     var buttonWidth = 0.0
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
-            return .lightContent // Change status bar style to white
-        }
+        return .lightContent // Change status bar style to white
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -126,7 +126,7 @@ class CurrencyViewController: UIViewController {
         button.backgroundColor = .white
         button.layer.cornerRadius = 15
         return button
-        }
+    }
     
     @objc func filterButtonTapped(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
@@ -146,26 +146,10 @@ class CurrencyViewController: UIViewController {
         }
         applyFilter()
     }
-
+    
     func applyFilter() {
-        var filteredData = cryptocurrenciesTemp
         
-        for filter in filterSelected {
-            filteredData = filteredData.filter{ item in
-                if filter == "New Coins" {
-                    return item.is_new == true
-                } else if filter == "Active" {
-                    return item.is_active == true
-                } else if filter == "Only Token" {
-                    return item.type == "token"
-                } else if filter == "Only Coins" {
-                    return item.type == "coin"
-                } else {
-                    return item.is_active == false
-                }
-                
-            }
-        }
+        let filteredData = currencyViewModel.getFilteredData(for: cryptocurrenciesTemp, and: filterSelected)
         cryptocurrencies = filteredData
         tableView.reloadData()
         
